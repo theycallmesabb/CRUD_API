@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #7F00FF, #E100FF);
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.btn-group button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-group button:hover {
+  background: rgba(255,255,255,0.4);
+}
+
+#form-area input[type="text"],
+#form-area input[type="number"] {
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+#form-area input[type="submit"] {
+  background-color: #00ff95;
+  color: #222;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-top: 30px;
+  text-align: left;
+  color: black;
+}
+
+.task {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: lightgray;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App UI</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My Tasks</h1>
+    <p>Stay organized, stay focused</p>
+
+    <div class="btn-group">
+      <button onclick="renderForm('add')">Add</button>
+      <button onclick="renderForm('update')">Update</button>
+      <button onclick="renderForm('delete')">Delete</button>
+      <button onclick="showTasks()">Show</button>
+    </div>
+
+    <div id="form-area"></div>
+    <div id="task-list" class="task-list"></div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
