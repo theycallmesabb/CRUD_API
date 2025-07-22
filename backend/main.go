@@ -32,7 +32,7 @@ func writeTask(c *gin.Context) {
 	err := c.ShouldBindJSON(&task)
 	//error handling
 	if errHandle(c, err) {
-		return err
+		return
 	}
 
 	tasks = append(tasks, task)
